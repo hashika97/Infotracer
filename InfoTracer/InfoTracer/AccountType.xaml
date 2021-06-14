@@ -1,0 +1,29 @@
+﻿<Window x:Class="InfoTracer.AccountType"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InfoTracer"
+        mc:Ignorable="d"
+        Title="AccountType" Height="750" Width="1200" WindowState="Maximized">
+    <Grid>
+        <Grid>
+           
+            <Image Source="173289.jpg" Stretch="Fill" Opacity="0.9">
+
+            </Image>
+            <Button  HorizontalAlignment="Left" Content="Log Out" FontSize="20" FontWeight="Black" Background="White" VerticalAlignment="Top" Foreground="#0B4F67" Height="40" Width="154" BorderBrush="#0B4F67" BorderThickness="4" Margin="20,20,20,0" />
+
+            <Rectangle Width="600" Height="400" Stroke="LightGray" StrokeThickness="3"/>
+            <StackPanel Height="300" Width="500" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label x:Name="lblNewAccount" Content="Select your account type" HorizontalAlignment="Center" Foreground="White" FontSize="25" FontWeight="Bold"  VerticalAlignment="Center" HorizontalContentAlignment="Center" Height="50" Width="300" />
+                <DockPanel Margin="0,80">
+                    <Button x:Name="btnPersonal" Content="Personal" Foreground="#073545" FontWeight="Black" FontSize="20" Background="#d1e0e0" BorderThickness="5" BorderBrush="#073545"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Height="60"  />
+                    <Button x:Name="btnShop" Content="Shop" Foreground="#073545" FontWeight="Black" FontSize="20" Background="#d1e0e0" BorderThickness="5" BorderBrush="#073545"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="160" Height="60" />
+
+                </DockPanel>
+              
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
